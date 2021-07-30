@@ -1,0 +1,16 @@
+h1, h2, h3 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+.jumbotron {
+    padding: 20px;
+    background-color: rgb(34, 47, 121);
+}
+
+#logo {
+    border-radius: 50%;
+}
+
+.footer {
+    background-color: rgb(34, 47, 121) ;
+    
+}
