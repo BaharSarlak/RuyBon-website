@@ -1,0 +1,19 @@
+$dark-blue:rgb(34, 47, 121);
+$headings-font: 'Alegreya Sans SC', sans-serif;
+
+h1, h2, h3 {
+    font-family: $headings-font
+}
+.jumbotron {
+    padding: 20px;
+    background-color:$dark-blue
+}
+
+#logo {
+    border-radius: 50%;
+}
+
+.footer {
+    background-color: rgb(34, 47, 121) ;
+    
+}

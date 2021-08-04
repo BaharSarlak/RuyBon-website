@@ -1,16 +1,18 @@
 h1, h2, h3 {
-    font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: "Alegreya Sans SC", sans-serif;
 }
+
 .jumbotron {
-    padding: 20px;
-    background-color: rgb(34, 47, 121);
+  padding: 20px;
+  background-color: #222f79;
 }
 
 #logo {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .footer {
-    background-color: rgb(34, 47, 121) ;
-    
+  background-color: #222f79;
 }
+
+/*# sourceMappingURL=styles.css.map */
