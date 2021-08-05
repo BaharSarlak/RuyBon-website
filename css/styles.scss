@@ -1,4 +1,5 @@
 $dark-blue:rgb(34, 47, 121);
+$light-blue:rgb(89, 96, 139);
 $headings-font: 'Alegreya Sans SC', sans-serif;
 
 h1, h2, h3 {
@@ -13,7 +14,10 @@ h1, h2, h3 {
     border-radius: 50%;
 }
 
+#moto {
+    display: block;
+}
 .footer {
-    background-color: rgb(34, 47, 121) ;
+    background-color:$dark-blue ;
     
 }

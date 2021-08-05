@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "sass --watch css:css",
-    "start": "npm run lite",
+    "start": "npm run watchboth",
     "lite": "lite-server",
     "watchboth": "parallelshell \"npm run lite\" \"npm run scss\""
   },
