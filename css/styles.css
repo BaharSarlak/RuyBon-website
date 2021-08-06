@@ -11,6 +11,10 @@ h1, h2, h3 {
   border-radius: 50%;
 }
 
+.navbar-brand {
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
 #moto {
   font-family: "Alegreya Sans SC", sans-serif;
   font-size: 4em;
