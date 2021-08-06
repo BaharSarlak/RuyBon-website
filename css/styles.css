@@ -15,10 +15,22 @@ h1, h2, h3 {
   font-family: "Alegreya Sans SC", sans-serif;
 }
 
+.breadcrumb {
+  background-image: linear-gradient(to right, #e4e4e4, #ffffff);
+}
+
 #moto {
   font-family: "Alegreya Sans SC", sans-serif;
   font-size: 4em;
-  text-shadow: 1px 2px 2px white;
+  text-shadow: 1px 2px 2px #ffffff;
+}
+
+.page-title {
+  margin-bottom: 30px;
+}
+.page-title span {
+  border-bottom: solid #223979;
+  border-width: thick;
 }
 
 img[class=card-img] {
@@ -27,6 +39,10 @@ img[class=card-img] {
 
 .card-button {
   background-color: #b7baa7;
+}
+
+#accordion .btn {
+  font-weight: bold;
 }
 
 .footer {

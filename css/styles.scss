@@ -1,7 +1,8 @@
 $dark-blue:rgb(34, 57, 121);
 $light-blue:rgb(89, 96, 139);
-$white: rgb(255, 255, 255);
+$white: #ffffff;
 $khaki: #b7baa7;
+$lightgrey: #e4e4e4;
 $headings-font: 'Alegreya Sans SC', sans-serif;
 
 h1, h2, h3 {
@@ -19,10 +20,21 @@ h1, h2, h3 {
     font-family: $headings-font;
 }
 
+.breadcrumb {
+    background-image: linear-gradient(to right, $lightgrey, $white);
+}
 #moto {
     font-family: $headings-font;
     font-size: 4em;
     text-shadow: 1px 2px 2px $white
+}
+
+.page-title {
+    margin-bottom: 30px;
+    span{
+    border-bottom: solid $dark-blue ;
+    border-width: thick;
+    }
 }
 
 img[class=card-img] {
@@ -31,6 +43,12 @@ img[class=card-img] {
 
 .card-button {
     background-color: $khaki;
+}
+
+#accordion {
+    .btn {
+        font-weight: bold;
+    }
 }
 
 .footer {
