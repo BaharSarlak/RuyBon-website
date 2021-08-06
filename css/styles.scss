@@ -1,6 +1,7 @@
-$dark-blue:rgb(34, 47, 121);
+$dark-blue:rgb(34, 57, 121);
 $light-blue:rgb(89, 96, 139);
 $white: rgb(255, 255, 255);
+$khaki: #b7baa7;
 $headings-font: 'Alegreya Sans SC', sans-serif;
 
 h1, h2, h3 {
@@ -20,6 +21,15 @@ h1, h2, h3 {
     font-size: 4em;
     text-shadow: 1px 2px 2px $white
 }
+
+img[class=card-img] {
+    height: auto;
+}
+
+.card-button {
+    background-color: $khaki;
+}
+
 .footer {
     background-color:$dark-blue ;
     
