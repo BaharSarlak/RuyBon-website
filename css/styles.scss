@@ -70,6 +70,21 @@ button[type="submit"] {
     background-color: $dark-blue;
 }
 
+.founders {
+    border: solid $khaki;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.aboutus-list {
+    h3 {
+        color: $dark-blue;
+    }
+    p {
+        text-align: justify;
+    }
+}
+
 
 .footer {
     background-color:$dark-blue ;

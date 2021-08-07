@@ -64,6 +64,19 @@ button[type=submit] {
   background-color: #223979;
 }
 
+.founders {
+  border: solid #b7baa7;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.aboutus-list h3 {
+  color: #223979;
+}
+.aboutus-list p {
+  text-align: justify;
+}
+
 .footer {
   background-color: #223979;
 }
