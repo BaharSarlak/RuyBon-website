@@ -45,6 +45,25 @@ img[class=card-img] {
   font-weight: bold;
 }
 
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 30%;
+  padding-top: 10%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 90%;
+  width: 100%;
+  position: absolute;
+}
+
+button[type=submit] {
+  background-color: #223979;
+}
+
 .footer {
   background-color: #223979;
 }

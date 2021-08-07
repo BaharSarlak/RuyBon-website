@@ -51,7 +51,26 @@ img[class=card-img] {
     }
 }
 
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:30%;
+    padding-top: 10%;
+    position:relative;
+    height:0;
+    iframe {
+        left:0;
+        top:0;
+        height:90%;
+        width:100%;
+        position:absolute;
+    }
+}
+
+button[type="submit"] {
+    background-color: $dark-blue;
+}
+
+
 .footer {
     background-color:$dark-blue ;
-    
 }
